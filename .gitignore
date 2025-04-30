@@ -1,0 +1,4 @@
+node_modules/
+doxity-temp*
+scripts/
+build/
