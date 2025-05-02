@@ -1,3 +1,6 @@
+// 4. mfg creates a medicine batch and sends it to wholesaler or distributor. Deploy a new medicine.sol contract with details.
+// 5. wholesaler or distributor
+
 pragma solidity >=0.4.25 <0.6.0;
 
 /********************************************** Medicine ******************************************/
@@ -216,7 +219,7 @@ contract Medicine {
     }
 
     /// @notice
-    /// @dev Update Medicine Batch transaction Status(Recieved) in between distributor and Pharma
+    /// @dev Update Medicine Batch transaction Status(Received) in between distributor and Pharma
     /// @param receiver Pharma Ethereum Network Address
     function recievedDP(
         address receiver

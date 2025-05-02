@@ -66,7 +66,7 @@ contract MedicineW_D {
     }
 
     /// @notice
-    /// @dev Recieved Medicine Batch by Associate distributor
+    /// @dev Received Medicine Batch by Associate distributor
     /// @param BatchID Medicine BatchID
     /// @param Receiver distributor Ethereum Network Address
     function recieveWD(

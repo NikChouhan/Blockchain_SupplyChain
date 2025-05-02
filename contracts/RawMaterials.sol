@@ -1,3 +1,6 @@
+// 2. deploy a smart contract for RawMaterials with all details.
+// 3. pick and transport the raw materials to the manufacturer.
+
 pragma solidity >=0.4.25 <0.6.0;
 
 /********************************************** RawMaterials ******************************************/

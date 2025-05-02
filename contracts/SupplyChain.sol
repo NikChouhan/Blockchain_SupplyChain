@@ -1,3 +1,6 @@
+//1. responsible for the overall supply chain management, registration of users, and tracking of products.
+
+
 pragma solidity >=0.4.25 <0.6.0;
 
 import './RawMaterials.sol';
@@ -506,7 +509,7 @@ contract SupplyChain {
     mapping(address => address[]) MedicineBatchAtPharma;
 
     /// @notice
-    /// @dev Medicine Batch Recieved
+    /// @dev Medicine Batch Received
     /// @param batchid Medicine BatchID
     /// @param cid SubContract ID
     function MedicineRecievedAtPharma(
